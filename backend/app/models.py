@@ -1,3 +1,5 @@
+#database models
+
 from sqlalchemy import Column, Integer, String, DateTime, Boolean, func
 from .database import Base
 
