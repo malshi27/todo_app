@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+SQLAlchemy>=1.4
+pydantic
+mysql-connector-python
+alembic
+pytest
+httpx
