@@ -8,7 +8,7 @@ export default function App() {
   const [tasks, setTasks] = useState([]);
   const [loading, setLoading] = useState(false);
 
-  // Load tasks from backend
+  // === Load task from backend === //
   const load = async () => {
     setLoading(true);
     try {
